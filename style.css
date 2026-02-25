@@ -1,0 +1,63 @@
+/* =========================
+   RESET Y CONFIGURACIÓN BASE
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px; /* 1rem = 16px */
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* =========================
+   CONTENEDOR PRINCIPAL
+========================= */
+
+.layout {
+    width: 40rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #4c4c6b; /* morado oscuro */
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    
+    justify-items: center;
+    align-content: center;
+    
+    padding: 3rem;
+}
+
+
+/* =========================
+   ELEMENTOS (CÁPSULAS)
+========================= */
+
+.item {
+    width: 5rem;
+    height: 8rem;
+    background-color: #fae29e; /* crema/amarillo */
+    
+    border-radius: 3rem;
+}
